@@ -11,7 +11,7 @@ var EmployeeView = (function() {
   function EmployeeView(model) {
     _.extend(this, Backbone.Events);
     this.model = model;
-    this.$el = $("<tbody />");
+    this.$el = $("<tr />");
   }
 
   EmployeeView.prototype = {
