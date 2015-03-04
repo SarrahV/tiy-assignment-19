@@ -43,7 +43,6 @@ var EmployeeView = (function() {
 
 });*/
 
-
 $(function(){
 
   $.ajax("data.json").done(function(data) {
