@@ -22,10 +22,8 @@ table td {
 }
 table td:nth-of-type(even) {
   background-color: #eee;
-  color: #135091;
   font-size: .9em;
 }
 table td:nth-of-type(odd) {
-  color: #135091;
   font-size: 1em;
 }
